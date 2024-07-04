@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "nombre": "Nacho Cornejo",
+      "edad": "30 años",
+      "nacionalidad": "Chile",
+      "deporte": "Deporte: Dirtbike Rider",
+      "imagen": "https://web-assests.monsterenergy.com/mnst/847b4917-739b-4bae-8f46-c4610c19a595.png"
+    },
+    {
+      "id": 2,
+      "nombre": "Adam Kun",
+      "edad": "38 años",
+      "nacionalidad": "Hungría",
+      "deporte": "Deporte: BMX Flatland",
+      "imagen": "https://web-assests.monsterenergy.com/mnst/b796635a-0ba7-4751-94a1-5d97531781e9.png"
+    },
+    {
+      "id": 3,
+      "nombre": "Matt Bromley",
+      "edad": "32 años",
+      "nacionalidad": "Sudáfrica",
+      "deporte": "Deporte: Surfista",
+      "imagen": "https://stories-cdn.essentiallysports.com/us-sports-news-big-wave-surfer-matt-bromley-gives-fans-sneak-peek-into-his-one-of-a-kind-surfing-spree/assets/4.jpeg"
+    },
+    {
+      "id": 4,
+      "nombre": "Maud Le Car",
+      "edad": "32 años",
+      "nacionalidad": "Francia",
+      "deporte": "Deporte: Surfista",
+      "imagen": "https://web-assests.monsterenergy.com/mnst/9c70f2f1-9b22-4931-b1e2-65c4b3f88f06.png"
+    },
+    {
+      "id": 5,
+      "nombre": "Nyjah Huston",
+      "edad": "29 años",
+      "nacionalidad": "Estados Unidos",
+      "deporte": "Deporte: Skateboarding",
+      "imagen": "https://web-assests.monsterenergy.com/mnst/4a325823-a642-4d8d-a410-b8b04416f38e.png"
+    }
+  ]

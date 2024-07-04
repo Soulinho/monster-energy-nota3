@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Monster-Energy Drinks </title>
+    <link rel="stylesheet" href="assets/scss/proyecto.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="assets/img/M.svg" type="image/png">
+    
+</head>
+<body>
+    
+
+  <!-- header -->
+    
+
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand px-2" href="#">
+            <img src="assets/img/monster-logo.webp" alt="Logo" height="60" width="120">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="logomonster"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Eventos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+
+  <!-- fin header -->
+
+
+
+
+  <!-- Principal N°1 -->
+
+
+  <div class="container-fluid mb-5 principal1">
+    <div class="row mt-5">
+        <div class="col-md-10 mx-auto my-5">
+            <div class="row">
+                <div class="col-md-5 order-md-last mb-4">
+                    <h1 class="titulobanner">Monster Energy <span> Drinks </span> </h1>
+                    <div class="linea"></div>
+                    <p class="textobanner mt-5"> Monster Energy es un golpe energético que te da todo el poder que necesitas mientras te brinda una suave experiencia. Con su sabor audaz y refrescante, te revitaliza al instante, proporcionándote la energía necesaria para enfrentar tus desafíos diarios con vigor. Ideal para aquellos momentos en los que necesitas un impulso extra. </p>
+                </div>
+
+                <div class="col-md-7 order-md-first imgbanner1">
+                        <img class="img-fluid imagenbanner1" src="assets/img/monster360.gif" alt="">
+                </div>
+            </div>        
+        </div>
+    </div>
+</div>
+
+
+ <!-- Fin Principal N°1 -->
+
+
+     
+
+  
+<!-- Principal N°2 -->
+
+
+ <div class="container-fluid mb-5 principal2">
+  <div class="row mt-5">
+      <div class="col-md-10 mx-auto my-5">
+          <div class="row">
+              <div class="col-md-5 order-md-firsts mb-4">
+                  <h2 class="titulo2">Los mejores deportistas <span> con nosotros </span></h2>
+                  <div class="linea"></div>
+                  <p class="textobanner mt-5"> En Monster Energy, nos enorgullece colaborar con algunos de los deportistas más destacados y atrevidos del mundo. Estos atletas no solo buscan romper récords y alcanzar nuevas alturas, sino que también personifican la pasión, la energía y el espíritu indomable que define a nuestra marca. Desde las olas más grandes y las pistas más peligrosas hasta las rampas más desafiantes y las carreras más intensas.</p>
+                  <button class="btn mt-3 botones" id="btnAbrirModal">Lista de Deportistas</button>
+                  <div id="modal" class="modal">
+                    <div class="modal-content">
+                      <span class="close px-3 modalcerrar1">&times;</span>
+                      <div id="listaDeportistas"></div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-md-7 order-md-last">
+                      <img class="img-fluid" src="assets/img/deportista.webp" alt="">
+              </div>
+          </div>        
+      </div>
+  </div>
+</div>
+    
+
+
+<!-- Fin Principal N°2 -->
+
+
+
+<!-- Principal N°3 -->
+
+
+<div data-aos="fade-right">
+    <div class="container-fluid principal3">
+        <div class="row">
+            <div class="col-md-11 mx-auto my-5">
+                <div class="row d-flex justify-content-between">
+                    <h2 class="titulo3 text-center">VID<span>EOS</span></h2>
+                 <div class="linea mx-auto mb-5"></div>
+                    <div class="row justify-content-center mt-5">
+                            
+                            <div class="col-md-12 mb-4 px-5 text-center"> 
+                                <h3 class="titulo4"> Rayssa Leal | From Brazil To The World </h3>
+                                <div class="video-embed">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ASTbuygnQX0?si=K6_UEExATBaMgx48" title="Rayssa Leal Skater Profesional Brazileña" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                                <a href="#" id="mas-videos" class="btn mt-5 botones">Más Videos</a>
+                            </div>
+                    </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Fin Principal N°3 -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- Principal N°4 -->
+
+
+
+
+<div class="container-fluid principal4">
+    <div class="row">
+        <div class="col-md-11 mx-auto my-5">
+            <div class="row d-flex justify-content-between">
+            <h2 class="titulo3 text-center"> Próximos <span> Eventos </span></h2>
+            <div class="linea mx-auto mb-5"></div>
+                        <div class="row justify-content-center mt-5">
+                                <div class="col-md-12 mb-4 px-3"> 
+                                    <div>
+                                        <img src="assets/img/monsterevent.png" class="card-img-top" alt="Evento monster energy drink Holidays">
+                                        <div class="text-center mt-5">
+                                                <h3 class="titulo5">MONSTER ENERGY® MUSIC FESTIVAL SWEEPSTAKES (HOLIDAY)</h3>
+                                                <a href="#" class="btn mt-2 botones">Más eventos</a>
+                                                <button type="button" class="btn mt-2 botones" id="liveToastBtn">Participar</button>
+                                                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                                                    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                                                    <div class="toast-header">
+                                                        <img src="assets/img/M.svg" class="rounded me-2" alt="logo monster energy" style="width: 20px;">
+                                                        <strong class="me-auto">Monster Energy</strong>
+                                                        <small>0 secs ago</small>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="toast-body">
+                                                        <h4><strong>El evento ha terminado, puedes participar de mas Eventos clickeando el boton "Más eventos"</strong></h4>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                        </div> 
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- Fin Principal N°4 -->
+
+
+
+
+
+<!-- Principal N°5 -->
+
+
+<div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+    <div class="container-fluid principal5 mt-5">
+        <h3 class="titulo6 text-center">GALE<span>RÍA</span></h3>
+        <div class="linea mx-auto mb-5"></div>
+            <div class="col-md-10 mx-auto my-3">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <a data-fancybox="gallery" data-src="https://web-assests.monsterenergy.com/mnst/688baa8e-eccb-45e4-a513-6dea94fa833b.png">
+                        <img src="https://web-assests.monsterenergy.com/mnst/688baa8e-eccb-45e4-a513-6dea94fa833b.png" style="width: 90%;" />
+                    </a>
+        
+                    <a  data-fancybox="gallery" data-src="https://web-assests.monsterenergy.com/mnst/66873bc9-e49b-4328-9c6d-4f7798d78fcd.webp">
+                        <img data-width="10vh;" src="https://web-assests.monsterenergy.com/mnst/66873bc9-e49b-4328-9c6d-4f7798d78fcd.webp" style="width: 90%;" />
+                    </a>
+        
+                    <a data-fancybox="gallery" data-src="https://web-assests.monsterenergy.com/mnst/0340ea57-a069-4e63-9011-00fc190224a1.webp">
+                        <img src="https://web-assests.monsterenergy.com/mnst/0340ea57-a069-4e63-9011-00fc190224a1.webp" style="width: 90%;" />
+                    </a>
+                    
+                </div>
+
+                
+            </div>
+
+    </div>
+</div>
+
+<!-- Fin Principal N°5 -->
+
+
+
+
+
+<!-- Footer -->
+<footer class="text-center py-5">
+  <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+          <div class="col-md-4 col-xl-5 mx-auto mb-5 mt-5">
+              <img class="logo-footer" src="assets/img/logo-footer.png" height="150" width="300" loading="lazy" alt="Monster Energy Logo">
+          </div>
+          
+          <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-5">
+              <h3>Compañía</h3>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #FFFFFF; height: 2px"/>
+              <p><a href="terminoscondiciones">Términos y Condiciones</a></p>
+              <p><a href="politicasprivacidad">Política de Privacidad</a></p>
+              <p><a href="politicascookies">Políticas de Cookies</a></p>
+              <p><a href="nosotros">Acerca de Nosotros</a></p>
+          </div>
+
+          <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-5">
+              <h3>Contactanós</h3>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #FFFFFF; height: 2px"/>
+              <p>Telefono: 1-866-322-4466</p>
+              <p>Ubicación: 1 Monster Way Corona, CA 92879</p>
+              <p>Atención Cliente: Lunes 8 AM - 9PM / Viernes 8 AM - 9PM</p>
+          </div>
+
+          <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-5">
+              <h3>Siguenós</h3>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #FFFFFF; height: 2px"/>
+              <div class="redes">
+                  <a href="https://www.facebook.com/MonsterEnergy" target="_blank" class="text-white me-3">
+                  <i class="fab fa-facebook"></i>
+                  </a>
+                  <a href="https://www.instagram.com/monsterenergy" target="_blank" class="text-white me-3">
+                  <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/" target="_blank" class="text-white me-3">
+                  <i class="fab fa-tiktok"></i>
+                  </a>
+              </div>
+              <div class="mt-3 redes2">
+                  <a href="https://www.x.com/"  target="_blank" class="text-white me-3">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="https://www.twitch.tv/" target="_blank" class="text-white me-3">
+                  <i class="fa-brands fa-twitch"></i>
+                  </a>
+                  <a href="https://www.youtube.com/" target="_blank" class="text-white me-3">
+                  <i class="fa-brands fa-youtube"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+
+<!-- Fin Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="assets/bootstrap-5.3.3/dist/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/4f0c48940d.js" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+</html>

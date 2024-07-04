@@ -1,0 +1,363 @@
+// Fuente
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+// Framework
+@import "../bootstrap-5.3.3/scss/bootstrap.scss";
+
+// Estilos
+
+body {
+    background-color: black !important;
+    font-family: "Teko", sans-serif !important;
+}
+
+
+body h1, h2, h3, h4, p {
+    font-family: "Teko", sans-serif !important;
+}
+
+// header //
+
+
+nav {
+    background-color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+nav a:hover {
+    color:#95D600 !important;
+}
+
+nav a {
+    color: white !important;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: color 0.50s ease; 
+}
+
+
+.nav-link.active {
+    background-color: #95D600;
+    color: black !important;
+}
+
+
+.nav-link.active:hover {
+    background-color: #95D600;
+    color: white !important;
+}
+
+.logomonster {
+    background-image: url('https://i.postimg.cc/4nkMk9CP/Monster-Menu.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block; 
+    width: 70px;
+    height: 50px; 
+    transition: transform 0.3s ease; 
+}
+
+.logomonster:hover {
+    transform: rotate(-90deg) scale(1.2); 
+}
+
+
+// fin estilos del header // 
+
+
+
+
+
+// Estilos Principal N°1 // 
+
+.principal1 h1 {
+    font-weight: 700;
+    font-size: 58px ;
+    color: #FFFFFF;
+}
+
+.principal1 .textobanner {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+
+
+.principal1 span {
+    font-weight: 700;
+    font-size: 58px;
+    color:#95D600;
+}
+
+
+.principal1 .linea {
+    width: 20%;
+    height: 5px; 
+    background-color: #95D600; 
+    box-shadow: 0px 0px 15px 3px #95D600;
+    border: none; 
+}
+
+
+
+
+.imagenbanner1 {
+    width: 80vh;
+}
+
+
+
+// Fin Estilos Principal N°1 // 
+
+
+
+// Principal N°2 // 
+
+
+.principal2 h2 {
+    font-weight: 700;
+    font-size: 58px;
+    color: #FFFFFF;
+}
+
+.principal2 span {
+    font-weight: 700;
+    font-size: 58px;
+    color:#95D600;
+}
+
+
+.principal2 .linea {
+    width: 20%;
+    height: 5px; 
+    background-color: #95D600; 
+    box-shadow: 0px 0px 15px 3px #95D600;
+    border: none; 
+}
+
+
+.principal2 .textobanner {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+
+//modal cerrar boton //
+
+.modalcerrar1:hover {
+    color: black !important;
+}
+
+
+
+// Fin Estilos Principal N°2 // 
+
+
+
+
+// Estilos Principal N°3 // 
+
+.principal3 h2 {
+    font-weight: 700;
+    font-size: 58px;
+    color: #FFFFFF;
+}
+
+.principal3 span {
+    font-weight: 700;
+    font-size: 58px;
+    color:#95D600;
+}
+
+.principal3 .linea {
+    width: 10vh;
+    height: 5px;
+    background-color: #95D600;
+    box-shadow: 0px 0px 15px 3px #95D600;
+    border: none; 
+}
+
+
+.principal3 .titulo4 {
+    font-weight: 700;
+    font-size: 58px;
+    color: #FFFFFF;
+}
+
+
+
+.botones {
+    font-size: 28px !important;
+    color: white !important;
+    background-color: #95D600 !important;
+}
+
+.botones:hover{
+    transform: scale(1.1);
+}
+
+
+.video-embed {
+    position: relative;
+    padding-bottom: 56%; 
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.video-embed iframe,
+.video-embed object,
+.video-embed embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+// Fin Estilos Principal N°3 // 
+
+
+
+
+
+
+// Principal N°4 // 
+
+.principal4 h2 {
+    font-weight: 700;
+    font-size: 58px;
+    color: #FFFFFF;
+}
+
+.principal4 span {
+    font-weight: 700;
+    font-size: 58px;
+    color:#95D600;
+}
+
+.principal4 .linea {
+    width: 10vh;
+    height: 5px;
+    background-color: #95D600;
+    box-shadow: 0px 0px 15px 3px #95D600;
+    border: none; 
+}
+
+
+.principal4 .titulo5 {
+    font-weight: 700;
+    font-size: 58px;
+    color: #FFFFFF;
+}
+
+
+// Fin Estilos Principal N°4 // 
+
+
+
+
+
+// Estilos Principal N°5 // 
+
+
+.principal5 .titulo6 {
+    font-weight: 700;
+    font-size: 58px;
+    color: #FFFFFF;
+}
+
+
+
+.principal5 span {
+    font-weight: 700;
+    font-size: 58px;
+    color:#95D600;
+}
+
+.principal5 .linea {
+    width: 10vh;
+    height: 5px;
+    background-color: #95D600;
+    box-shadow: 0px 0px 15px 3px #95D600;
+    border: none; 
+}
+
+
+
+
+
+
+// Fin Estilos Principal N°5 // 
+
+
+
+
+
+
+
+
+// Estilo Footer // 
+
+footer {
+    background-image: url('https://www.monsterenergy.com/img/hdr-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    margin-top: 20vh;
+}
+
+
+footer h3 {
+    font-size: 32px;
+    color: #95D600;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #95D600;
+}
+
+
+footer p {
+    font-size: 20px;
+    color: white;
+}
+
+footer .redes {
+    font-size: 30px;
+}
+
+
+footer .redes2 {
+    font-size: 28px;
+   }
+
+
+footer i:hover{
+    color: #95D600;
+    transform: matrix(1, 0.5, -0.5, 1, 0, 0);
+}
+
+
+@media (max-width: 768px) {
+    footer {
+        background-image: none;
+    }
+}
+
+
+// Fin estilos Footer // 
